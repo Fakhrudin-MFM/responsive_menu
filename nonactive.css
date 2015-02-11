@@ -23,14 +23,15 @@ div.menu li{
 }
 div.menu li a:link{
   text-decoration: none;
-  color: grey;
+  color: rgb(164,166,170);
 }
 div.menu li a:visited{
-  color: grey;
+ color: rgb(164,166,170);
 }
 div.menu li.list-header{
-  background-color: #49494C;
+  background-color: rgb(76,80,85);
   color: white;
+  padding:10px 0px 10px 0px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
@@ -39,4 +40,8 @@ div.menu li span.number{
   border: solid 1px lightgrey;
   padding: 5px 10px 5px 10px;
   border-radius: 15px;
+}
+i{
+  padding:5px 5px 0px 5px;
+  color: rgb(210,213,219);
 }

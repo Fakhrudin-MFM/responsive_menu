@@ -1,7 +1,5 @@
 div.menu ul li.list-header {
-  background-color: #4B4F55;
-  color:#fff;
-  list-style: none;
+
   padding: 10px;
   font-size: 14px;
   margin-bottom: 1px;
@@ -12,13 +10,18 @@ div.menu ul li a{
   color:#6E757C;
   padding: 10px;
   }
-div.menu ul li a:hover{
+div.menu ul li a:focus{
   background-color: #6E757C;
   color:#fff;
 }
 
-div.menu ul li a:hover span.number{
+div.menu ul li a:focus span.number{
   background-color:#EE3D41;
   border: solid 1px #EE3D41;
+
+  
+}
+div.menu ul li a:focus i{
+  color: white;
   
 }
