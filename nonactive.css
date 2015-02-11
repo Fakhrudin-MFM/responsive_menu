@@ -6,7 +6,7 @@ body{
   font-family: helvetica, Georgia, Serif;
 }
 div.menu ul{
-  width: 200px;
+  width: 40%;
   border: solid 1px lightgrey;
   border-radius: 5px;
   padding: 0;
@@ -16,19 +16,27 @@ div.menu ul{
 div.menu li{
   background-color: white;
   list-style: none;
-  padding: 10px;
   font-size: 14px;
   margin-bottom: 1px;
-}
-div.menu li.list_header{
-background-color: darkgrey;
-
+  padding:15px;
 }
 div.menu li a:link{
-text-decoration: none;
-color: grey;
+  text-decoration: none;
+  color: grey;
 }
-
 div.menu li a:visited{
-color: grey;
+  color: grey;
+}
+div.menu li.list-header{
+  background-color: #49494C;
+  color: white;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+div.menu li span.number{
+  float: right;
+  border: solid 1px lightgrey;
+  padding: 5 10 5 10;
+  border-radius: 15px;
+
 }
