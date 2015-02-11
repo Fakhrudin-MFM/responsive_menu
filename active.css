@@ -17,6 +17,10 @@ div.menu ul li a:hover{
   background-color: rgb(111,118,127);
   color:#fff;
 }
+div.menu ul li.last:hover a{
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
 div.menu ul li a:hover span.number{
   background-color:rgb(238,63,71);
   border: solid 1px rgb(238,63,70);
