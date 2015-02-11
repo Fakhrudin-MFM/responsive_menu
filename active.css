@@ -16,3 +16,9 @@ div.menu ul li a:hover{
   background-color: #6E757C;
   color:#fff;
 }
+
+div.menu ul li a:hover span.number{
+  background-color:#EE3D41;
+  border: solid 1px #EE3D41;
+  
+}
