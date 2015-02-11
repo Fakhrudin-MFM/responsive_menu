@@ -6,6 +6,7 @@ body{
   font-family: helvetica, Georgia, Serif;
 }
 div.menu ul{
+  background-color: lightgrey;
   width: 40%;
   border: solid 1px lightgrey;
   border-radius: 5px;
@@ -32,7 +33,7 @@ div.menu li a:visited{
 div.menu li span.number{
   float: right;
   border: solid 1px lightgrey;
-  padding: 5px 10px 5px 10px;
+  padding: 3px 10px 3px 10px;
   border-radius: 15px;
 }
 i{
@@ -53,19 +54,22 @@ li:hover div.arrow-right {
   position:absolute;
   right: -10px;
   top:13px;
+} 
+.last{
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
-
 li div.arrow-right{
   display: none;
 }
 @media screen and (max-width: 400px) {
-  .text{
-    display: none;
-  }
-  .list-header span{
-    display: none;
-  }
-  .show{
-    display: block;
-  }
+    .text{
+        display: none;
+    }
+    .list-header span{
+      display: none;
+    }
+    .show{
+      display: block;
+    }
 }
