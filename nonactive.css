@@ -1,0 +1,19 @@
+body{
+  background-color:#EBF0EF;
+  font-family: helvetica;
+}
+div.menu{
+width: 200px;
+border: solid 1px grey;
+border-radius: 3px;
+}
+
+div.menu li{
+  background-color: white;
+  list-style: none;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 1px;
+
+}
+
