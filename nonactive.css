@@ -20,6 +20,7 @@ div.menu li{
   font-size: 14px;
   margin-bottom: 1px;
   height: 45px;
+  position:relative;
 }
 div.menu li a:link{
   text-decoration: none;
@@ -49,9 +50,9 @@ li:hover div.arrow-right {
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   border-left: 10px solid rgb(111,118,127);
-  float: right;
-  margin-right:-10px;
-  margin-top:14px;
+  position:absolute;
+  right: -10px;
+  top:13px;
 }
 
 li div.arrow-right{
