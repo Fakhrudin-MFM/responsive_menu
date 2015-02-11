@@ -6,6 +6,7 @@ body{
   font-family: helvetica, Georgia, Serif;
 }
 div.menu ul{
+  background-color: lightgrey;
   width: 40%;
   border: solid 1px lightgrey;
   border-radius: 5px;
@@ -31,7 +32,7 @@ div.menu li a:visited{
 div.menu li span.number{
   float: right;
   border: solid 1px lightgrey;
-  padding: 5px 10px 5px 10px;
+  padding: 3px 10px 3px 10px;
   border-radius: 15px;
 }
 i{
@@ -51,9 +52,12 @@ li:hover div.arrow-right {
   border-left: 10px solid rgb(111,118,127);
   float: right;
   margin-right:-10px;
-  margin-top:14px;
+  margin-top:-14px;
 }
-
+.last{
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
 li div.arrow-right{
   display: none;
 }
