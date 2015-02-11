@@ -5,6 +5,7 @@ body{
   background-color:#EBF0EF;
   font-family: helvetica, Georgia, Serif;
 }
+
 div.menu ul{
   width: 40%;
   border: solid 1px lightgrey;
@@ -38,5 +39,4 @@ div.menu li span.number{
   border: solid 1px lightgrey;
   padding: 5 10 5 10;
   border-radius: 15px;
-
 }
