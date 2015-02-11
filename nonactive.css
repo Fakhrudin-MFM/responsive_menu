@@ -44,3 +44,15 @@ li a:link.show-all{
   padding: 15px;
   height: 45px;
 }
+
+@media screen and (max-width: 450px) {
+    .text{
+        display: none;
+    }
+    .list-header span{
+      display: none;
+    }
+    .show{
+      display: block;
+    }
+}
