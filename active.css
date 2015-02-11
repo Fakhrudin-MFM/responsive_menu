@@ -1,0 +1,18 @@
+div.menu ul li.list-header {
+  background-color: #4B4F55;
+  color:#fff;
+  list-style: none;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 1px;
+}
+div.menu ul li a{
+  display:inline-block;
+  width:100%;
+  color:#6E757C;
+  padding: 10px;
+  }
+div.menu ul li a:hover{
+  background-color: #6E757C;
+  color:#fff;
+}
