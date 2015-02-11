@@ -37,6 +37,6 @@ div.menu li.list-header{
 div.menu li span.number{
   float: right;
   border: solid 1px lightgrey;
-  padding: 5 10 5 10;
+  padding: 5px 10px 5px 10px;
   border-radius: 15px;
 }
