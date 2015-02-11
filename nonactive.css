@@ -5,7 +5,6 @@ body{
   background-color:#EBF0EF;
   font-family: helvetica, Georgia, Serif;
 }
-
 div.menu ul{
   width: 40%;
   border: solid 1px lightgrey;
@@ -27,9 +26,8 @@ div.menu li a:link{
   color: rgb(164,166,170);
 }
 div.menu li a:visited{
- color: rgb(164,166,170);
+  color: rgb(164,166,170);
 }
-
 div.menu li span.number{
   float: right;
   border: solid 1px lightgrey;
@@ -44,15 +42,29 @@ li a:link.show-all{
   padding: 15px;
   height: 45px;
 }
+li:hover div.arrow-right {
+  display: block;
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid rgb(111,118,127);
+  float: right;
+  margin-right:-10px;
+  margin-top:14px;
+}
 
+li div.arrow-right{
+  display: none;
+}
 @media screen and (max-width: 400px) {
-    .text{
-        display: none;
-    }
-    .list-header span{
-      display: none;
-    }
-    .show{
-      display: block;
-    }
+  .text{
+    display: none;
+  }
+  .list-header span{
+    display: none;
+  }
+  .show{
+    display: block;
+  }
 }
