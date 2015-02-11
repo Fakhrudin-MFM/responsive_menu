@@ -1,3 +1,6 @@
+*{
+  box-sizing:border-box;
+}
 body{
   background-color:#EBF0EF;
   font-family: helvetica, Georgia, Serif;
