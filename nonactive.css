@@ -13,6 +13,7 @@ div.menu ul{
   padding: 0;
   box-shadow: 0 0 1px lightgrey;
   margin-left: 35%;
+  min-width: 100px;
 }
 div.menu li{
   background-color: white;
@@ -62,7 +63,7 @@ li:hover div.arrow-right {
 li div.arrow-right{
   display: none;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .text{
         display: none;
     }
