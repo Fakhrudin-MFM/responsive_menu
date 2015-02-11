@@ -3,7 +3,7 @@
 }
 body{
   background-color:#EBF0EF;
-  font-family: helvetica;
+  font-family: helvetica, Georgia, Serif;
 }
 div.menu ul{
   width: 200px;
@@ -18,10 +18,12 @@ div.menu li{
   list-style: none;
   padding: 10px;
   font-size: 14px;
-
   margin-bottom: 1px;
 }
+div.menu li.list_header{
 
+
+}
 div.menu li a:link{
 text-decoration: none;
 color: grey;
